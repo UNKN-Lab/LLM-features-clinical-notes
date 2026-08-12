@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Restricted clinical data and locally derived artifacts
+data/*
+!data/example_synthetic.json
+data/splits/
+*.rar
+
+# Model and LLM caches
+cache/
+*.npy
+*.npz
+*.parquet
+
+# Locally generated experimental results
+results/*
+!results/aggregate_metrics.csv
+*_predictions.csv
+*_classification_reports.json
+*_detailed.csv
+*_summary.csv
+*_results.xlsx
+
+# Platform metadata
+.DS_Store
