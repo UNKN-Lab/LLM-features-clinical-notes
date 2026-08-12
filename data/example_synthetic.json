@@ -1,0 +1,9 @@
+{
+  "_notice": "Entirely fictional schema example. Not derived from MIMIC, DiReCT, or any real patient.",
+  "input1": "Synthetic example: intermittent dry cough for two days.",
+  "input2": "Synthetic example: no respiratory distress reported.",
+  "input3": "Synthetic example: no relevant medical history provided.",
+  "input4": "Synthetic example: no medications listed.",
+  "input5": "Synthetic example: routine examination findings omitted.",
+  "input6": "Synthetic example: no diagnostic test results available."
+}
